@@ -1,6 +1,7 @@
 def info(message) {
 	ansiColor('xterm') {
 		echo "\033[34m [INFO] ${message} \033[0m"
+	}
 }
 
 def warning(message) {
