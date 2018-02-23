@@ -18,6 +18,10 @@ def error(message) {
 
 def success(message) {
 	ansiColor('xterm') {
-		echo "\033[1;32m [SUCCESS] ${message} \033[0m"
+		echo "\033[32m [SUCCESS] ${message} \033[0m"
 	}
+}
+
+def block() {
+	echo "========== ========== ========== ========== ========== =========="
 }
