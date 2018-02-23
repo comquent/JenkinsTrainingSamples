@@ -1,3 +1,3 @@
-def info(message) {
+def info(String message) {
  echo "INFO: ${message}"
 }
